@@ -6,7 +6,7 @@
 # Property used on app startup to check the config server status
 configserver:
   name: discovery config server
-  status: Connected to the discovery config server, using https://github.com/bluntsoftware/config !
+  status: Connected to the discovery production config server, using https://github.com/bluntsoftware/config !
 
 # Default JWT secret token (to be changed in production!)
 jhipster:
