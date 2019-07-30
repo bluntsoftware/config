@@ -1,0 +1,5 @@
+jhipster:
+  security:
+    authentication:
+      jwt:
+        base64-secret: MmJ8ITJi
