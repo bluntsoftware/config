@@ -13,6 +13,6 @@ jhipster:
   security:
     authentication:
       jwt:
-        secret: MmJ8ITJi
+        base64-secret: MmJ8ITJi
 eureka:
   environment: Discovery-PROD
