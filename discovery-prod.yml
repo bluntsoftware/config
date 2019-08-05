@@ -13,6 +13,6 @@ jhipster:
   security:
     authentication:
       jwt:
-        secret: 2b|!2b
+        secret: ADDD173B0D4003FF10BDA8ACF1AB95AF575876EA4B24CA772B046834A6A1DD51
 eureka:
   environment: Discovery-PROD
