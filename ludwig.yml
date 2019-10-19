@@ -1,18 +1,16 @@
 app:
-  name: ludwig
+  name: ${spring.application.name}
 server:
   address: localhost
   port: 80
   servlet:
-    context-path: /ludwig
+    context-path: /${spring.application.name}
 mongo:
   host: localhost
   port: 27017
 spring:
-  application:
-    name: ludwig
   jmx:
-    default-domain: ludwig
+    default-domain: ${spring.application.name}
   security:
     oauth2:
       client:
