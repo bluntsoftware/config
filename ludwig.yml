@@ -8,6 +8,7 @@ server:
 mongo:
   host: localhost
   port: 27017
+
 spring:
   jmx:
     default-domain: ${spring.application.name}
