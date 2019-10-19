@@ -1,3 +1,13 @@
+app:
+  name: ludwig
+server:
+  address: localhost
+  port: 80
+  servlet:
+    context-path: /ludwig
+mongo:
+  host: localhost
+  port: 27017
 spring:
   application:
     name: ludwig
