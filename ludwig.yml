@@ -4,7 +4,7 @@ server:
   address: localhost
   port: 80
   servlet:
-    context-path: /${spring.application.name}
+    context-path: /
 mongo:
   host: localhost
   port: 27017
