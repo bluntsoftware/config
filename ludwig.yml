@@ -3,6 +3,7 @@ app:
 server:
   address: localhost
   port: 80
+  use-forward-headers: true
   servlet:
     context-path: /
 mongo:
