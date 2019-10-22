@@ -2,7 +2,7 @@ app:
   name: ${spring.application.name}
 server:
   address: localhost
-  port: 80
+  port: 8081
   use-forward-headers: true
   servlet:
     context-path: /
