@@ -14,8 +14,10 @@ management:
     web:
       exposure:
         include: "*"
-datadog:
-  apiKey: "bbeb49faefe690665ac4d730b4da708b"
-  enabled: true
-  step: "PT10S"
+metrics:
+  export:
+    datadog:
+      api-key: "bbeb49faefe690665ac4d730b4da708b"
+      step: "30s"
+
 
