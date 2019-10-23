@@ -9,6 +9,7 @@ server:
 mongo:
   host: localhost
   port: 27017
+
 management:
   endpoints:
     web:
