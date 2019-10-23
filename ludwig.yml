@@ -18,6 +18,4 @@ datadog:
   apiKey: "bbeb49faefe690665ac4d730b4da708b"
   enabled: true
   step: "PT10S"
-spring:
-  main:
-    allow-bean-definition-overriding: true
+
