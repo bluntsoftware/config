@@ -9,7 +9,11 @@ server:
 mongo:
   host: localhost
   port: 27017
-
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
 datadog:
   apiKey: "bbeb49faefe690665ac4d730b4da708b"
   enabled: true
