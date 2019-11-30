@@ -1,6 +1,6 @@
 server:
   address: localhost
-  port: 80
+  port: 8080
   use-forward-headers: true
   servlet:
     context-path: /
