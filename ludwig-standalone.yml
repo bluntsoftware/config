@@ -4,3 +4,6 @@ server:
   use-forward-headers: true
   servlet:
     context-path: /
+eureka:
+  client:
+    enabled: false
