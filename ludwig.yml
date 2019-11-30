@@ -6,9 +6,6 @@ server:
   use-forward-headers: true
   servlet:
     context-path: /
-mongo:
-  host: localhost
-  port: 27017
 management:
   endpoints:
     web:
