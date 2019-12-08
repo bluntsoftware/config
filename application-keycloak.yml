@@ -1,6 +1,6 @@
 spring:
   jmx:
-    default-domain: ${application.name}
+    default-domain: ${app.name}
   security:
     oauth2:
       client:
