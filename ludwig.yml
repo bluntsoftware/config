@@ -1,7 +1,7 @@
 app:
   name: ludwig
 spring:
-  app:
+  application:
     name: ludwig
 server:
   address: localhost
