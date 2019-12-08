@@ -1,9 +1,5 @@
 app:
   name: ludwig
-
-spring:
-  application:
-    name: ${app.name}
 server:
   address: localhost
   port: 8081

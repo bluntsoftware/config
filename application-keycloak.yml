@@ -1,6 +1,6 @@
 spring:
   jmx:
-    default-domain: ${spring.application.name}
+    default-domain: ludwig
   security:
     oauth2:
       client:
