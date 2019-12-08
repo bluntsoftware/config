@@ -1,5 +1,5 @@
 app:
-  name: ${spring.application.name}
+  name: ludwig
 server:
   address: localhost
   port: 8081
