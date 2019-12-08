@@ -1,5 +1,8 @@
 app:
   name: ludwig
+spring:
+  app:
+    name: ludwig
 server:
   address: localhost
   port: 8081
