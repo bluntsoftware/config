@@ -5,6 +5,8 @@ spring:
     name: ludwig
 server:
   port: 8080
+  servlet:
+    context-path: /
 mongo:
   host: localhost
   port: 27017
