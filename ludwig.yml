@@ -4,11 +4,7 @@ spring:
   application:
     name: ludwig
 server:
-  address: localhost
   port: 8080
-  use-forward-headers: true
-  servlet:
-    context-path: /
 mongo:
   host: localhost
   port: 27017
