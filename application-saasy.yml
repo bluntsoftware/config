@@ -3,6 +3,5 @@ spring:
     default-domain: ${spring.application.name}
   security:
     oauth2:
-      resourceserver:
-        jwt:
-          jwk-set-uri: https://saasy.bluntsoftware.com/auth/oauth/token
+      resource:
+        userInfoUri: https://saasy.bluntsoftware.com/user/me
