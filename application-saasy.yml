@@ -18,10 +18,10 @@ spring:
                 authorization-grant-type: authorization_code
             provider:
               saasy:
-                token-uri: http://localhost:8443/auth/oauth/token
-                authorization-uri: http://localhost:8443/auth/oauth/authorize
-                user-info-uri: http://localhost:8443/auth/user/me
+                token-uri: https://saasy.bluntsoftware.com/auth/oauth/token
+                authorization-uri: https://saasy.bluntsoftware.com/auth/oauth/authorize
+                user-info-uri: https://saasy.bluntsoftware.com/auth/user/me
                 user-name-attribute: name
       resourceserver:
         jwt:
-          jwk-set-uri: http://localhost:8443/auth/oauth/token
+          jwk-set-uri: https://saasy.bluntsoftware.com/auth/oauth/token
