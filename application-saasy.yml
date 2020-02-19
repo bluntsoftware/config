@@ -7,21 +7,21 @@ spring:
         oauth2:
           client:
             registration:
-              custom-client:
-                client-id: R2dpxQ3vPrtfgF72
-                client-secret: fDw7Mpkk5czHNuSRtmhGmAGL42CaxQB9
-                client-name: Auth Server
+              saasy:
+                client-id: 123456789
+                client-secret: 2b|!2b
+                client-name: saasy
                 scope: user_info
-                provider: custom-provider
+                provider: sassy
                 redirect-uri-template: http://localhost:8080/login/oauth2/code/
                 client-authentication-method: basic
                 authorization-grant-type: authorization_code
             provider:
-              custom-provider:
+              saasy:
                 token-uri: http://localhost:8443/auth/oauth/token
                 authorization-uri: http://localhost:8443/auth/oauth/authorize
                 user-info-uri: http://localhost:8443/auth/user/me
                 user-name-attribute: name
       resourceserver:
         jwt:
-          jwk-set-uri: http://localhost:8443/auth/realms/dev-spring/protocol/openid-connect/certs
+          jwk-set-uri: http://localhost:8443/auth/oauth/token
