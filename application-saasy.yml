@@ -4,24 +4,22 @@ spring:
   security:
     oauth2:
       client:
-        oauth2:
-          client:
-            registration:
-              saasy:
-                client-id: 123456789
-                client-secret: 2b|!2b
-                client-name: saasy
-                scope: user_info
-                provider: sassy
-                redirect-uri-template: http://localhost:8080/login/oauth2/code/
-                client-authentication-method: basic
-                authorization-grant-type: authorization_code
-            provider:
-              saasy:
-                token-uri: https://saasy.bluntsoftware.com/auth/oauth/token
-                authorization-uri: https://saasy.bluntsoftware.com/auth/oauth/authorize
-                user-info-uri: https://saasy.bluntsoftware.com/auth/user/me
-                user-name-attribute: name
+        registration:
+          saasy:
+            client-id: 123456789
+            client-secret: 2b|!2b
+            client-name: saasy
+            scope: user_info
+            provider: sassy
+            redirect-uri-template: http://localhost:8080/login/oauth2/code/
+            client-authentication-method: basic
+            authorization-grant-type: authorization_code
+        provider:
+          saasy:
+            token-uri: https://saasy.bluntsoftware.com/auth/oauth/token
+            authorization-uri: https://saasy.bluntsoftware.com/auth/oauth/authorize
+            user-info-uri: https://saasy.bluntsoftware.com/auth/user/me
+            user-name-attribute: name
       resourceserver:
         jwt:
           jwk-set-uri: https://saasy.bluntsoftware.com/auth/oauth/token
