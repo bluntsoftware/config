@@ -15,6 +15,9 @@ management:
     web:
       exposure:
         include: "*"
+ludwig:
+  encrypt:
+    key: "{cipher}AQAxzV641Yq79CErkQjribWaKiC0isiAEIFxKSOWyqdP3ULA8zDY/iLZM73QCcObAiusoMRibE2/dEha7cbRVFs6P4KtHlw3h+hjecMWQL+qWgJDQVQLayiHj9LdDoCC6UOoS1raMDt72vsJVUrG7GGlFiUewH5Mxu3MnlOI8B5WqVzqgVkPeg+57x155w7xHtMbAubH+iwa2ylvRM8QNc5oYQlx5cpA6qGvVsKLtNmjV18K25d3BWHRjEqDN7K1cxskfpiB4FpbYGtA3PRLhIfnAwt1iYZBHR3GNhNJW9BlnJKs9yJrswiXUT3xF1NCvXtcae81g7Oe2Z8KvMZeoqgQPowLdlxAzFfSIGLYtJm+R9JgXKGCL1exZ6yNxJWKp+c="
 metrics:
   export:
     datadog:
