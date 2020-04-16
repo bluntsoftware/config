@@ -1,6 +1,9 @@
 spring:
   security:
     oauth2:
+      resourceserver:
+        jwt:
+          key-set-uri: http://localhost:8083/.well-known/jwks.json
       client:
         registration:
           custom-client:
@@ -18,6 +21,3 @@ spring:
             user-info-uri: http://localhost:8083/user/me
             authorization-uri: http://localhost:8083/oauth/authorize
             user-name-attribute: name
-      resourceserver:
-        jwt:
-          key-set-uri: http://localhost:8083/.well-known/jwks.json
