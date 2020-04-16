@@ -3,7 +3,7 @@ spring:
     oauth2:
       resourceserver:
         jwt:
-          key-set-uri: http://localhost:8083/.well-known/jwks.json
+          jwk-set-uri: http://localhost:8083/.well-known/jwks.json
       client:
         registration:
           custom-client:
