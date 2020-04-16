@@ -1,6 +1,9 @@
 spring:
   security:
     oauth2:
+      resourceserver:
+        jwt:
+          key-set-uri: https://saasy.bluntsoftware.com/.well-known/jwks.json
       client:
         registration:
           custom-client:
