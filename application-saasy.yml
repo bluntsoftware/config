@@ -20,4 +20,4 @@ spring:
             token-uri: https://saasy.bluntsoftware.com/oauth/token
             user-info-uri: https://saasy.bluntsoftware.com/user/me
             authorization-uri: https://saasy.bluntsoftware.com/oauth/authorize
-            user-name-attribute: name
+            user-name-attribute: user_name
