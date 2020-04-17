@@ -20,4 +20,4 @@ spring:
             token-uri: http://localhost:8083/oauth/token
             user-info-uri: http://localhost:8083/user/me
             authorization-uri: http://localhost:8083/oauth/authorize
-            user-name-attribute: name
+            user-name-attribute: email
