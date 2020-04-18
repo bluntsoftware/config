@@ -2,6 +2,7 @@ spring:
   security:
     oauth2:
       resourceserver:
+        user-info-uri: http://localhost:8083/user/me
         jwt:
           jwk-set-uri: http://localhost:8083/.well-known/jwks.json
       client:
