@@ -12,7 +12,7 @@ spring:
             client-name: Saasy
             scope: ui
             provider: custom-provider
-            redirect-uri: http://localhost:8085/login/oauth2/code/
+            redirect-uri: http://localhost:8085/oauth2/callback
             authorization-grant-type: authorization_code
         provider:
           custom-provider:
