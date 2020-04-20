@@ -1,0 +1,23 @@
+spring:
+  security:
+    oauth2:
+      resourceserver:
+        jwt:
+          jwk-set-uri: https://saasy.bluntsoftware.com/.well-known/jwks.json
+      client:
+        registration:
+          custom-client:
+            client-id: browser
+            client-secret: '{cipher}AQAdsO4GlFLPxwV/FL7QE2XV8N46n1D30UMaFbG2g0POxnjY6DJHho40zgf2K42IehEDX7Bc+cc4EpmUaEgSH1eDRs+pMEkryCYivaIEqozJJVgc4qUAzigI4aKjm04PuaD3V6PrKIo634XvZVvi3ykLy2KlUpQOnFtagqBFmIT87KxmoYfV87V9G3YMMUMOLddgOMqvpOWLt9c+rm88rj3nvJ/ffVlSRhLiCwYTM7P3/GQumo/o82uM02orCMKGWKrzPIkf3O9qlw2pIsM5FZ9WCf1vhzBtNb0+/LezBHhl/ytqvqPzq/o/XvIgEVM/+SSZEf/y8tHPQQRmNijl0pRx147TkRoFchp6aJ6QYe5+BSD50n3pGG5+4GGtHdjgbuA='
+            client-name: Saasy
+            scope: ui
+            provider: custom-provider
+            redirect-uri: http://localhost:8085/oauth2/callback
+            authorization-grant-type: authorization_code
+        provider:
+          custom-provider:
+            token-info-uri: https://saasy.bluntsoftware.com/oauth/check_token
+            token-uri: https://saasy.bluntsoftware.com/oauth/token
+            user-info-uri: https://saasy.bluntsoftware.com/user/me
+            authorization-uri: https://saasy.bluntsoftware.com/oauth/authorize
+            user-name-attribute: name
