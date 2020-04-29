@@ -1,6 +1,9 @@
 spring:
   security:
     oauth2:
+      user:
+        name: admin
+        password: admin
       resourceserver:
         jwt:
           jwk-set-uri: https://saasy.bluntsoftware.com/.well-known/jwks.json
