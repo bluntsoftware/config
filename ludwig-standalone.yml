@@ -1,3 +1,13 @@
 eureka:
   client:
     enabled: false
+spring:
+  security:
+    oauth2:
+      resourceserver:
+        jwt:
+          jwk-set-uri: https://saasy.bluntsoftware.com/.well-known/jwks.json
+
+mongo:
+  host: mongodb
+  port: 27017
