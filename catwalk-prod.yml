@@ -4,4 +4,4 @@ spring:
             client:
                 registration:
                     github:
-                        redirectUri: http://localhost:4200/callback
+                        redirectUri: https://catwalk.bluntsoftware.com/callback
