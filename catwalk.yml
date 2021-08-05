@@ -5,5 +5,5 @@ spring:
                 registration:
                     github:
                         client-id: 5b21d66ebc3b6e3c1c57
-                        redirectUri: https://catwalk.bluntsoftware.com/callback
+                        redirectUri: https://catwalk.bluntsoftware.com/app/callback
                         client-secret: '{cipher}AQAlVg4lv5BYenIdQK5l8RhwD+mhvQmGsbNGab0kvFaYs8FW76y1org8gYBnPKWKqAo10SAO/Juvacxf519559KfcmNqw8z3dYxQ/1IApD2muwXe4TjpN+loXcAfnmrd+BQMH2aSqZi6SR3SuNbrDtdi+292hQWLGbVteC4nQZ3po62oXOEZjOY0agewjIFKoBcNIh6bk977yNlTtpZ50sZ2kaKDOsWA7PHD/2KPU9FmoX9kKoZ+Gyb/hwH3UASZQcyEeqvMoyWPjMpWX0GnMOVmoXRfhlGwQJvk/2xV5qTlEQXk+IlNaHOfqutr1fbSJ7y2lEPZYgKO4n9xcMjQsHRoRqijmg6xujXvuvK5K+qH4E292L0AwiCVjKlRo6jwLpSY6ROTDhbWEcEGe66aIgEtY9JpzqaRUiIThEihAkkXxg=='
