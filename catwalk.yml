@@ -4,4 +4,4 @@ spring:
             client:
                 registration:
                     github:
-                        client-secret: test
+                        client-secret: '{cipher}AQAdsO4GlFLPxwV/FL7QE2XV8N46n1D30UM'
